@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    font-family:Karla;
+    font-weight: lighter;
+    font-size:12px; 
+    background-color:red;
+  }
+
+.word-wrap {
+  width: 1000px; 
+  word-wrap: break-word;
+  margin: auto;
+  padding: 140px;
+  background-color:red;
+}
+  
+
+h1 {
+  font-size:70px;
+  font-weight: bold;
+  text-align: center;
+  line-height:95%;
+  color:  rgba(17, 233, 91, 1);
+}
+
+h2 {
+  font-size:20px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+
+.myButton {
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Karla;
+	font-size:21px;
+	padding:12px 33px;
+    text-decoration:none;text-decoration: none;
+    background-color: rgba(17, 233, 91, 1);
+    box-shadow: 0 5px 20px rgba(17, 233, 91, .5);
+ position: absolute;
+    top: 517px;
+    left:542px;
+
+}

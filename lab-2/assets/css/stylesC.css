@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.myButton {
+	-moz-border-radius:31px;
+	-webkit-border-radius:31px;
+	border-radius:31px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Karla;
+	font-size:14px;
+  padding:9px 18px;
+  text-decoration: none;
+    background-color: rgba(17, 233, 91, 1);
+    box-shadow: 0 5px 20px rgba(17, 233, 91, .5);
+    position:absolute;
+    top:50px;
+    left:1110px;
+}
+.myButton:hover {
+  background-color:red;
+  box-shadow: 0 5px 20px rgba(255, 35, 82, 0.5);
+}
+
+
+.wrapper {
+  font-size: 0;
+  position: absolute;
+  top:230px;
+  left:150px;
+
+}
+  
+.letter {
+  width: 74px;
+  height: 114px;
+  background: #ffffff;
+  display: inline-block;
+  position: relative;
+  margin: 0 20px 100px 0;
+}
+
+/* Letter System */
+.bar { position: absolute; background: #000; }
+
+.v { width: 14px; }
+.v.xs { height: 23px; }
+.v.s  { height: 34px; }
+.v.m  { height: 55px; }
+.v.l  { height: 88px; }
+.v.xl { height: 114px; }
+
+.h { height: 14px; }
+.h.xs { width: 23px; }
+.h.s  { width: 34px; }
+.h.m  { width: 55px; }
+.h.l  { width: 88px; }
+.h.xl { width: 114px; }
+
+
+/* Colors */
+.green { background: #F5DA00; }
+.red { background: #928233; }
+.yellow { background: #FFF4CE; }
+.purple { background:#0063D1; }
+.blue { background:#E2E1EF; }
+
+
+/* Letter A */
+.a .v.left { top: 26px; left: 0; }
+.a .v.right { top: 26px; right: 0; }
+.a .h.top { top: 10; left: 20px; }
+.a .h.middle { top: 50px; left: 25px; }
+
+/* Letter B */
+.b .v.left { top: 0px; left: 0; }
+.b .v.top-right { top: 16px; right: 0; }
+.b .v.bottom-right { top: 65px; right: 0; }
+.b .h.top { top: 0; left: 20px; }
+.b .h.middle { top: 50px; left: 25px; }
+.b .h.bottom { top: 100px; left: 20px; }
+
+/* Letter C */
+.c .v.left { top: 13px; left: 0; }
+.c .h.top { top: 0px; right: 0px; }
+.c .h.bottom { top: 100px; right: 0px; }
+
+/* Letter D */
+.d .v.left { top: 0px; left: 0; }
+.d .h.top { top: 0px; right: 20px; }
+.d .h.bottom { top: 100px; right: 20px; }
+.d .v.right { top: 13px; right: 0px; }
+
+/* Letter E */
+.e .v.left { top: 0px; left: 0; }
+.e .h.top { top: 0px; right: 0px; }
+.e .h.bottom { top: 100px; right: 0px; }
+.e .h.middle { top: 50px; right: 20px; }
+
+/* Letter F */
+.f .v.left { top: 0px; left: 0; }
+.f .h.top { top: 0px; right: 0px; }
+.f .h.middle { top: 50px; right: 20px; }
+
+/* Letter G */
+.g .v.left { top: 13px; left: 0; }
+.g .h.top { top: 0px; right: 0px; }
+.g .h.bottom { top: 100px; right: 0px; }
+.g .h.middle { top: 55px; right: 0px; }
+
+/* Letter H */
+.hh .v.left { top: 0px; left: 0; }
+.hh .v.right { top: 0px; right: 0px; }
+.hh .h.middle { top: 50px; right: 20px; }
+
+/* Letter I */
+.i .v.middle { top: 29px; left: 30px; }
+.i .h.top { top: 0px; right: 20px; }
+.i .h.bottom { top: 100px; right: 20px; }
+
+/* Letter J */
+.j .h.top { top: 0px; right: 0px; }
+.j .v.middle { top: 29px; right: 0px; }
+.j .h.bottom { top: 100px; right: 17px; }
+.j .h.middle { top: 70px; right: 50px; }
+
+/* Letter K */
+.k .v.top { top: 0px; right: 0px; }
+.k .v.middle { top: 46px; right: 28px; }
+.k .v.top-right { top: 0px; right: 0px; }
+.k .v.bottom-right { top: 80px; right: 0px; }
+.k { position:absolute; top:140px;left:0px;}
+
+/* Letter L */
+.ll .v.left { top: 0px; left: 0px; }
+.ll .h.bottom { top: 100px; right: 0px; }
+.ll { position:absolute; top:140px;left:93px;}
+
+/* Letter M */
+.ok .v.left { top: 0px; left: 0px; }
+.ok .v.right { top: 0px; right: 0px; }
+.ok .v.middle { top: 54px; right: 30px; }
+.ok { position:absolute; top:140px;left:188px;}
+
+/* Letter N */
+.n .v.left { top: 0px; left: 0px; }
+.n .v.right { top: 0px; right: 0px; }
+.n .v.middle-right { top: 59px; right: 20px; }
+.n .v.middle-left { top: 26px; right: 39px; }
+.n { position:absolute; top:140px;left:282px;}
+
+/* Letter O */
+.o .v.left { top: 13px; left: 0; }
+.o .v.right { top: 13px; right: 0; }
+.o .h.top { top: 0px; right: 19px; }
+.o .h.bottom { top: 100px; right: 19px; }
+.o { position:absolute; top:140px;left:375px;}
+
+/* Letter P */
+.p .v.left { top: 0px; left: 0; }
+.p .h.top { top: 0px; right: 19px; }
+.p .h.bottom { top: 43px; right: 19px; }
+.p .v.middle { top: 17px; right: 0px; }
+.p { position:absolute; top:140px;left:470px;}
+
+/* Letter Q */
+.q .v.left { top: 25px; left: 0; }
+.q .v.right { top: 25px; right: 0px; }
+.q .h.top { top: 0px; right: 19px; }
+.q .h.bottom { top: 87px; right: 19px; }
+.q .v.b-right { top: 91px; right: 0; }
+.q { position:absolute; top:140px;left:564px;}
+
+/* Letter R */
+.r .v.left { top: 0px; left: 0; }
+.r .h.top { top: 0px; right: 19px; }
+.r .h.middle { top: 43px; right: 19px; }
+.r .v.middle-right { top: 17px; right: 0px; }
+.r .v.bottom { top: 59px; right: 0; }
+.r { position:absolute; top:140px;left:656px;}
+
+/* Letter S */
+.sok .v.left { top: 15px; left: 0px; }
+.sok .h.top { top: 0px; right: 19px; }
+.sok .h.middle { top: 50px; right: 25px; }
+.sok .v.right { top: 63px; right: 0px; }
+.sok .h.bottom { top: 100px; right: 17px; }
+.sok { position:absolute; top:140px;left:752px;}
+
+/* Letter T */
+.t .v.middle { top: 25px; left: 30px; }
+.t .h.top { top: 0px; right: 9px; }
+.t { position:absolute; top:140px;left:850px;}
+
+/* Letter U */
+.u .v.left { top: 0px; left: 0; }
+.u .v.right { top: 0px; right: 0; }
+.u .h.bottom { top: 100px; right: 19px; }
+.u { position:absolute; top:280px;left:0px;}
+
+/* Letter V */
+.vok .v.left { top: 0px; left: 0; }
+.vok .v.right { top: 0px; right: 0; }
+.vok .v.bottom-right { top: 62px; right: 11px; }
+.vok .v.bottom-left { top: 62px; left: 11px; }
+.vok .h.bottom { top: 100px; right: 25px; }
+.vok { position:absolute; top:280px;left:93px;}
+
+/* Letter W */
+.w .v.left { top: 0px; left: 0px; }
+.w .v.right { top: 0px; right: 0px; }
+.w .v.middle { top: 72px; right: 30px; }
+.w { position:absolute; top:280px;left:188px;}
+
+/* Letter X */
+.reloux .v.left { top: 0px; left: 0px; }
+.reloux .v.right { top: 0px; right: 0px; }
+.reloux .v.middle-left { top: 58px; left: 0px; }
+.reloux .v.middle-right { top: 58px; right: 0px; }
+.reloux .v.center { top: 35px; right: 30px; }
+.reloux { position:absolute; top:280px;left:282px;}
+
+/* Letter Y */
+.relouy .v.left { top: 0px; left: 0px; }
+.relouy .v.right { top: 0px; right: 0px; }
+.relouy .v.middle { top: 59px; right: 30px; }
+.relouy { position:absolute; top:280px;left:375px;}
+
+/* Letter Z */
+.z .h.top { top: 0px; right: 0px; }
+.z .h.middle-top { top: 35px; right: 9px; }
+.z .h.middle-bottom { top: 65px; left: 15px; }
+.z .h.bottom { top: 100px; left: 0px; }
+.z { position:absolute; top:280px;left:470px;}
+
+
+.menu {
+  width: 737px; 
+  margin: auto;
+  padding: 100px;
+}
+
+.colorpair {
+  font-family: Karla;
+  color: black;
+  font-weight: 100;
+  font-size:20px;
+  position: absolute;
+  top: 60px;
+  left:150px;
+}
+
+
+.circlewhite {
+  height: 40px;
+  width: 40px;
+  background-color:white ;
+  border: 2px solid#00FF00;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:276px;
+
+}
+
+
+.circlemarron {
+  height: 42px;
+  width: 42px;
+  background-color:#928233;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:330px;
+
+}
+
+.circlemoutarde {
+  height: 42px;
+  width: 42px;
+  background-color:#F5DA00;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:384px;
+
+}
+
+.circlebeige {
+  height: 42px;
+  width: 42px;
+  background-color:#FFF4CE;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:438px;
+
+}
+
+.circlemarine {
+  height: 42px;
+  width: 42px;
+  background-color:#0063D1;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:492px;
+
+}
+
+.circlelightb {
+  height: 42px;
+  width: 42px;
+  background-color:#E2E1EF;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left:546px;
+
+}
+
+.visiontype {
+  font-family: Karla;
+  color: black;
+  font-weight: 100;
+  font-size:20px;
+  position: absolute;
+  top: 140px;
+  left:150px;
+}
+
+.btn{
+  border: 2px solid black;
+  border-radius: 31px;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.chromatic {
+  font-family: Karla;
+  font-size:15px;
+  border-color:  black;
+  color: black;
+  position: absolute;
+  top: 140px;
+  left:276px;
+}
+
+.colorblind {
+  font-family: Karla;
+  font-size:15px;
+  border-color: #00FF00;
+  color:#00FF00;
+  position: absolute;
+  top: 140px;
+  left:384px;
+}
+
+
+.backcolor {
+  width: 1000px; 
+  margin: auto;
+  padding: 264px;
+  background-color: white;
+}
